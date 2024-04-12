@@ -6,3 +6,11 @@ GET http://localhost:3000/api/products
 ###
 # List only featured products
 GET http://localhost:3000/api/products/featured
+
+###
+# Get a single product
+GET http://localhost:3000/api/products/moletom-never-stop-learning
+
+###
+# Search products
+GET http://localhost:3000/api/products/search?q=camiseta

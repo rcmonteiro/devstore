@@ -7,3 +7,15 @@ export interface Product {
   price: number
   featured: boolean
 }
+
+export interface GetProductParams {
+  params: {
+    slug: string
+  }
+}
+
+export interface SearchProductParams {
+  searchParams: {
+    q: string
+  }
+}
