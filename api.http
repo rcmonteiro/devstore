@@ -1,0 +1,8 @@
+# API for testing environment
+
+# List all products
+GET http://localhost:3000/api/products
+
+###
+# List only featured products
+GET http://localhost:3000/api/products/featured
