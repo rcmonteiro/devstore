@@ -1,16 +1,16 @@
 # API for testing environment
 
 # List all products
-GET http://localhost:3000/api/products
+GET https://devstore-api-iota.vercel.app/api/products
 
 ###
 # List only featured products
-GET http://localhost:3000/api/products/featured
+GET https://devstore-api-iota.vercel.app/api/products/featured
 
 ###
 # Get a single product
-GET http://localhost:3000/api/products/moletom-never-stop-learning
+GET https://devstore-api-iota.vercel.app/api/products/moletom-never-stop-learning
 
 ###
 # Search products
-GET http://localhost:3000/api/products/search?q=camiseta
+GET https://devstore-api-iota.vercel.app/api/products/search?q=camiseta
