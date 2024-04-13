@@ -1,4 +1,4 @@
-describe('sdd product to cart', () => {
+describe('add product to cart', () => {
   beforeEach(() => {
     cy.visit('/')
   })
