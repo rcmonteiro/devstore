@@ -1,4 +1,4 @@
-describe('sdd product to cart', () => {
+describe('search products', () => {
   it('should be able to search for products', () => {
     cy.searchByQuery('moletom')
     cy.location('pathname').should('include', '/search')
