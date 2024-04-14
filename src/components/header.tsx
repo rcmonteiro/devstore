@@ -11,7 +11,7 @@ export const Header = () => {
         <Link href="/" className="text-2xl font-extrabold text-white">
           devstore
         </Link>
-        <Suspense>
+        <Suspense fallback={null}>
           <SearchForm />
         </Suspense>
       </div>
